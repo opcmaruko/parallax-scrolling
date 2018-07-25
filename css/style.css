@@ -1,0 +1,202 @@
+     html {
+         height: 100%;
+     }
+     
+     html,
+     body {
+         overflow-x: hidden;
+     }
+     
+     body {
+         min-height: 100%;
+     }
+     
+     body {
+         font-family: 'Heebo', sans-serif, 'NotoSansTC-Medium';
+         font-size: 17px;
+         color: #000000;
+     }
+     
+     p,
+     h1,
+     h2,
+     h3,
+     h4,
+     h5,
+     a {
+         line-height: 1.4;
+     }
+     /* home */
+     
+     .home,
+     .fulfil {
+         background: #1799FF;
+         display: grid;
+         grid-template-rows: repeat(8, 1fr);
+         grid-template-columns: repeat(8, 1fr);
+         height: 100vh;
+         overflow: hidden;
+     }
+     
+     .question {
+         font-family: NotoSansTC-Medium;
+         font-size: 72px;
+         color: #FFFFFF;
+         grid-row: 1/4;
+         grid-column: 2/6;
+         padding-right: 10px;
+         padding-top: 50px;
+     }
+     
+     .img-1 {
+         grid-row: 4/8;
+         grid-column: 5/8;
+         position: relative;
+         z-index: 2;
+     }
+     /* buttons */
+     
+     .button {
+         grid-row: 4/5;
+         grid-column: 2/4;
+         padding: 10px 10px 8px;
+         font-size: 36px;
+         background: #FFB100;
+         color: white;
+         text-align: center;
+         -webkit-transition: all 0.1s linear;
+         -moz-transition: all 0.1s linear;
+         -o-transition: all 0.1s linear;
+         -ms-transition: all 0.1s linear;
+         transition: all 0.1s linear;
+         margin-left: 0;
+         margin-right: auto;
+         margin-top: 20px;
+         margin-bottom: 20px;
+         height: 80px;
+         width: 100%;
+         max-width: 200px;
+         position: relative;
+         z-index: 9999;
+     }
+     
+     .button:hover,
+     .button:focus {
+         background-color: #99cc99;
+         color: #ffffff;
+     }
+     
+     .q-slide {
+         background: #83D56D;
+         display: grid;
+         grid-template-rows: repeat(8, 1fr);
+         grid-template-columns: repeat(8, 1fr);
+         height: 100vh;
+         position: relative;
+         z-index: 3;
+         overflow: hidden;
+     }
+     
+     .qnum {
+         font-family: NotoSansTC-Medium;
+         grid-row: 1/2;
+         grid-column: 2/3;
+         font-size: 36px;
+         color: #4A4A4A;
+         padding-top: 35px;
+     }
+     
+     .px {
+         font-family: NotoSansTC-Medium;
+         font-size: 24px;
+         color: #4A4A4A;
+         grid-row: 3/4;
+         grid-column: 2/4;
+         padding-top: 10px;
+     }
+     
+     .input-icons {
+         grid-row: 4/5;
+         grid-column: 2/4;
+     }
+     
+     .form-control {
+         border-radius: 5px;
+         width: 200px;
+         height: 60px;
+         font-family: NotoSansTC-Medium;
+         font-size: 36px;
+         color: #4A4A4A;
+         border: none;
+         position: relative;
+         z-index: 999;
+     }
+     
+     .next {
+         grid-row: 6/7;
+         grid-column: 2/4;
+     }
+     
+     .text {
+         font-family: NotoSansTC-Medium;
+         font-size: 48px;
+         color: #FFFFFF;
+         position: relative;
+         z-index: 999;
+     }
+     
+     .text01 {
+         grid-row: 5/6;
+         grid-column: 2/5;
+         padding-right: 50px;
+     }
+     
+     .text02 {
+         grid-row: 6/7;
+         grid-column: 2/6;
+     }
+     
+     .num {
+         color: #FFAD00;
+         font-family: NotoSansTC-Black;
+     }
+     
+     .font-lg {
+         font-size: 100px;
+     }
+     
+     .font-md {
+         font-size: 72px;
+     }
+     
+     #canvas,
+     #canvas2,
+     #canvas3,
+     #canvas4 {
+         grid-row: 1/8;
+         grid-column: 1/8;
+         position: relative;
+         z-index: 1;
+     }
+     
+     .img-2 {
+         grid-row: 4/8;
+         grid-column: 8/9;
+         position: relative;
+         z-index: 2;
+     }
+     
+     .img-3 {
+         grid-row: 4/8;
+         grid-column: 6/9;
+         position: relative;
+         z-index: 2;
+         margin-top: -60px;
+     }
+     
+     .img-4 {
+         grid-row: 3/8;
+         grid-column: 8/9;
+         position: relative;
+         z-index: 2;
+     }
